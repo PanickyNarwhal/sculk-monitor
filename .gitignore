@@ -1,0 +1,29 @@
+# evironment / secrets
+.env
+*.key
+config.local.*
+
+# Cpp
+agent-cpp/build/
+agent-cpp/cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+
+# Go (backend)
+backend-go/bin/
+backend-go/*.db
+backend-go/*.db-shm
+backend-go/*.db-wal
+backend-go/backend-go
+
+# Python
+__pycache__/
+*.pyc
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
