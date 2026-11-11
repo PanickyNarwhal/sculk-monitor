@@ -3,14 +3,6 @@
 *.key
 config.local.*
 
-# Cpp
-agent-cpp/build/
-agent-cpp/cmake-build-*/
-*.o
-*.obj
-*.exe
-*.out
-
 # Go (backend)
 backend-go/bin/
 backend-go/*.db
